@@ -9,3 +9,5 @@ pkg install python
 pkg install git
 3. Теперь скачиваем сам скрипт  
 git clone https://github.com/LinBR/vk-antikick
+4. Скачиваем модули, что использует скрипт  
+ pip install -r requirements.txt
