@@ -16,3 +16,11 @@ cd vk-antikick
 6. Запуск скрипта  
 python antikick.py
 ## Linux
+1. Скачиваем скрипт  
+git clone https://github.com/LinBR/vk-antikick
+2. Переходим в папку со скриптом  
+cd vk-antikick
+3. Скачиваем все зависимости, которые использует бот  
+ pip install -r requirements.txt
+4. Запуск скрипта
+python antikick.py
