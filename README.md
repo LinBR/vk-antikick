@@ -15,3 +15,4 @@ cd vk-antikick
  pip install -r requirements.txt
 6. Запуск скрипта  
 python antikick.py
+## Linux
