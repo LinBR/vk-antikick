@@ -37,3 +37,7 @@ cd vk-antikick
  pip install -r requirements.txt
 4. Запуск скрипта
 python antikick.py
+## Автор
+Telegram: t.me/Lin089
+Discord: sueta.....#8453
+Vk: sosatb
