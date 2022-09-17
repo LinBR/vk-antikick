@@ -107,7 +107,7 @@ class Main():
             while True:
                 try:
                     token = input(f'{self.plus} Введите токен №{self.i2 + 1} аккаунта:\n')
-                    if len(token) == 85:
+                    if len(token) == 85 or len(token) == 198:
                         vk = vk_api.VkApi(token=token)
                         info_account = vk.method('users.get', {})
                         id = info_account[0]["id"]
@@ -189,7 +189,7 @@ class Main():
             while True:
                 try:
                     token = input(f'{self.plus} Введите токен №{self.i + 1} аккаунта:\n')
-                    if len(token) == 85:
+                    if len(token) == 85 or len(token) == 198:
                         vk = vk_api.VkApi(token=token)
                         info_account = vk.method('users.get', {})
                         id = info_account[0]["id"]
