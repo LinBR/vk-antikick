@@ -135,8 +135,8 @@ class Main():
                 try:
                     number = input(f'\n{self.plus} Введите номер: ')
                     password = input(f'{self.plus} Введите пароль: ')
-                    url = f"https://oauth.vk.com/token?grant_type=password&client_id=3697615&client_secret=AlVXZFMUqy" \
-                          f"rnABp8ncuU&username={number}&password={password}"
+                    url = f"https://oauth.vk.com/token?grant_type=password&client_id=2274003&client_secret=hHbZxrka2uZ6jB" \ 
+                          f"1inYsH&username={number}&password={password}"
                     ke = requests.get(url).json()
                     token = ke['access_token']
                     vk = vk_api.VkApi(token=token)
@@ -217,8 +217,8 @@ class Main():
                 try:
                     number = input(f'\n{self.plus} Введите номер: ')
                     password = input(f'{self.plus} Введите пароль: ')
-                    url = f"https://oauth.vk.com/token?grant_type=password&client_id=3697615&client_secret=AlVXZFMUqy" \
-                          f"rnABp8ncuU&username={number}&password={password}"
+                    url = f"https://oauth.vk.com/token?grant_type=password&client_id=2274003&client_secret=hHbZxrka2uZ6jB" \
+                          f"1inYsH&username={number}&password={password}"
                     ke = requests.get(url).json()
                     token = ke['access_token']
                     vk = vk_api.VkApi(token=token)
